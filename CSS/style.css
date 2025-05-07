@@ -1,0 +1,122 @@
+body{font-family: cursive;
+    margin: 0%;
+    padding: 0%;
+    width: 100%;
+    background-color: #f0ecec;}
+
+.about-text{float;
+    position: relative;
+    left: 0px;
+    color: rgb(27, 27, 27);}
+
+p{caption-side: bottom;}
+
+img{caption-side: bottom;
+padding: 0%;
+margin: 0%;}
+
+header{background-color: #333;
+    color:white; 
+    width: 100%;
+    text-align: center;
+    position: relative;
+    box-shadow: 5px 5px 10px rgb(0, 0, 0, 0.5);
+    padding: 0;
+    margin: 0%;}
+
+    nav ul{list-style: none;
+    padding: 0%;}
+
+    nav ul li{display: inline;
+    margin:0% 10px;}
+
+    nav ul li a{color: white; 
+        text-decoration: dotted;}
+
+section {
+        margin-bottom: 20px;
+        margin-left: 10px;
+        margin-right: 10px;
+        padding: 10px;
+        background: white;
+        border-radius: 5px;}
+
+footer
+{text-align: center;
+padding: 10px;
+background: #333;
+color: white;
+position: relative;
+bottom: 0%;
+width: 100%;}
+
+html{scroll-behavior: smooth;
+margin: 0%;
+padding:0%;}
+
+a:hover{text-decoration: underline;
+color:aqua;transition: color 0.4s ease-in-out;}
+
+.Aboutimg{display: inline;
+left: 20px;
+width: 150px;
+height: auto;
+background: fixed;
+padding: 20px  ;
+box-sizing: border-box;}
+
+.img-container{ 
+    display: flex;
+}
+img{display: block;box-shadow: 5px 5px 10px rgb(0, 0, 0, 0.5);
+    padding: 0; }
+    
+.about-text{margin-left: 100px;color:gray;}
+
+.Interest{background-color: aquamarine;
+margin-left: 65%;}
+
+ul{list-style: none;
+    padding: 0%;}
+
+ul li{display: inline;}
+
+#about{padding: 20px;}
+
+#interest ul{list-style: none;
+padding: 0;
+display: flex;
+gap: 20px;}
+
+#interest li{font-size: 18px;
+display: flex;
+align-items: center;}
+
+#interest i {margin-right: 10px;
+color: #007bff;
+font-size: 24px;}
+
+fieldset{width: 30%;}
+
+i{color: #007bff;
+font-size: 3em;}
+
+.float {position: absolute;
+top: 50px;
+right: 50%;}
+
+#backtotopbtn{
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 999;
+    color: #fff
+    padding: 12px 15px;
+    border-radius: 30% ;
+    font-size: 18px;
+    text-align: center;
+    text-decoration: none;
+    transition: background 0.3s;
+    opacity: 50%;
+}
+
